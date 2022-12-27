@@ -1,0 +1,215 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Homestead Test Project</title>
+    <link rel="icon" type="image/x-icon" href="src/img/logo.svg">
+</head>
+<body>
+    <center>
+        <div class="content-holder">
+            <div class="header-menu-holder p24">
+                <div class="row">
+                    <div class="col logo"><a href="index.html"><img src="src/img/menu-bar-logo.png"/></a></div>
+                    <div class="col menu-nav">
+                       <!-- <img src="src/img/ham-menu.png"/>-->
+                        <nav class="navbar navbar-dark">
+                            <div class="container-fluid navbar-align">
+                            <button class="navbartoggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            </div>
+                        </nav>
+                        <div class="collapse" id="navbarToggleExternalContent">
+                            <div class="p-4">
+                                <ul class="navmenu">
+                                    <li> <h5><a href="#testimonial">Testimonals</a></h5></li>
+                                    <li><h5><a href="#features&benefits">Features & Benefits</h5></a></li>
+                                    <li><h5><a href="#process">Process</h5></a></li>
+                                    <li><h5><a href="">CTA Form</h5></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-us-container">
+                <div class="row intro">
+                   <h1>Contact Us</h1>
+                </div>
+              <div class="contact-form-wrap">
+                <div class="row general-info pb-24">
+                    <div class="col input-fullwidth">
+                        <label>
+                            <span class="label-text">
+                                NAME
+                            </span>
+                            <input type="text" placeholder="Your Name">
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label>
+                            <span class="label-text">
+                                EMAIL
+                            </span>
+                            <input type="text" placeholder="Enter Valid Email">
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label>
+                            <span class="label-text">
+                                COMPANY
+                            </span>
+                            <input type="text" placeholder="Your Company Name">
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label>
+                            <span class="label-text">
+                                WEBSITE
+                            </span>
+                            <input type="text" placeholder="Your Website URL">
+                        </label>
+                    </div>
+                </div>
+                <div class="input-fullwidth pb-24">
+                    <label>
+                        <span class="label-text">
+                            HOW DID YOU HEAR ABOUT HOMESTEAD?
+                        </span>
+                        <input type="text" placeholder="Word of mouth, Twitter, Podcast, etc">
+                    </label>
+                </div>
+                <div class="input-fullwidth pb-24">
+                    <label>
+                        <span class="label-text">
+                            WHAT ARE YOU LOOKING FOR IN A GROWTH MARKETING PARTNER?
+                        </span>
+                        <input type="text" placeholder="Your ideal partner is...">
+                    </label>
+                </div>
+                <div class="technical-info pb-24">
+                    <hr>
+                    <h3>Technical Questions</h3>
+                    <p>Please provide an overview of your advertising and growth goals.</p>
+                </div>
+                <div class="row">
+                    <div class="dropdown-group pb-24">
+                        <label class="col dropdown-wrap">
+                            <span class="label-text">Monthly Ad budget</span>
+                            <select name="monthly_ad_budget">
+                                <option value="">Your monthly ad budget</option>
+                                <option value="$0-$15k">$0 - $15k</option>
+                                <option value="$15 - $50k">$15 - $50k</option>
+                                <option value="$50k - $100k">$50k - $100k</option>
+                                <option value="$100k-$500k">$100k-$500k</option>
+                                <option value="$500k+">$500k+</option>
+                            </select></label>
+                        <label class="col dropdown-wrap">
+                            <span class="label-text">Annual Revenue</span>
+                            <select name="annual_revenue">
+                                <option value="">Your annual revenue</option>
+                                <option value="$0-$1M">$0 - $1M</option>
+                                <option value="$1M - $5M">$1M - $5M</option>
+                                <option value="$5M - $10M">$5M - $10M</option>
+                                <option value="$10M - $50M">$10M - $50M</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="paidSocial-group pb-24">
+                        <div class="col input-fullwidth">
+                            <label>
+                                <span class="label-text">Facebook Monthly Spend</span>
+                                <input type="text" placeholder="$50k" name="fb_monthly_spend" id="fb_monthly_spend" required="">
+                            </label>
+                        </div>
+                        <div class="col input-fullwidth">
+                            <label>
+                                <span class="label-text">Facebook ROAS Goal</span>
+                                <input type="text" placeholder="2.5" name="fb_roas_goal" id="fb_roas_goal" required="">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="paidSocial-group pb-24">
+                        <div class="col input-fullwidth">
+                            <label>
+                                <span class="label-text">Snapchat Monthly Spend</span>
+                                <input type="text" placeholder="$50k" name="snap_monthly_spend" id="snap_monthly_spend" required="">
+                            </label>
+                        </div>
+                        <div class="col input-fullwidth">
+                            <label>
+                                <span class="label-text">Snapchat ROAS Goal</span>
+                                <input type="text" placeholder="2.5" name="snap_roas_goal" id="snap_roas_goal" required="">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="paidSocial-group pb-24">
+                        <div class="col input-fullwidth">
+                            <label>
+                                <span class="label-text">TikTok Monthly Spend</span>
+                                <input type="text" placeholder="$50k" name="tiktok_monthly_spend" id="tiktok_monthly_spend" required="">
+                            </label>
+                        </div>
+                        <div class="col input-fullwidth">
+                            <label>
+                                <span class="label-text">TikTok ROAS Goal</span>
+                                <input type="text" placeholder="2.5" name="tiktok_roas_goal" id="tiktok_roas_goal" required="">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="paidSocial-group pb-24">
+                        <div class="col input-fullwidth">
+                            <label>
+                                <span class="label-text">Google Monthly Spend</span>
+                                <input type="text" placeholder="$50k" name="google_monthly_spend" id="google_monthly_spend" required="">
+                            </label>
+                        </div>
+                        <div class="col input-fullwidth">
+                            <label>
+                                <span class="label-text">Google ROAS Goal</span>
+                                <input type="text" placeholder="2.5" name="google_roas_goal" id="google_roas_goal" required="">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-group">
+                    <div class="input-fullwidth pb-24">
+                        <label>
+                            <span class="label-text">Who manages your email marketing campaigns?</span>
+                            <input type="text" placeholder="In-house or agency/contractor" name="email_management" id="email_management" required="">
+                        </label>
+                    </div>
+                    <div class="input-fullwidth pb-24">
+                        <label>
+                            <span class="label-text">Who manages your website updates?</span>
+                            <input type="text" placeholder="In-house or agency/contractor" name="website_updates" id="website_updates" required="">
+                        </label>
+                    </div>
+                    <div class="input-fullwidth pb-24">
+                        <label>
+                            <span class="label-text">Who manages shooting creative assets for ads, emails, and web?</span>
+                            <input type="text" placeholder="In-house or agency/contractor" name="creative_shooting" id="creative_shooting" required="">
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-homestead" type="submit">Submit</button>
+                </div>
+
+              </div>
+            </div>
+        </div>
+    </center>
+</body>
